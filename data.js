@@ -1,17 +1,12 @@
 const servicesData = [
     {
-        title: "Frontend Development",
+        title: "Service",
         category: "frontend",
-        description: ['Frontend ipsum dolor sit amet consectetur adipisicing elit. Beatae quaerat officia maxime ullam. Distinctio voluptate officia voluptas unde debitis quia corporis doloribus labore vero? Soluta dolorum sapiente dolores libero accusantium.', 'Consectetur adipisicing elit. Autem tempora vitae magni sint hic non consectetur voluptatum accusamus, est dicta commodi, possimus laborum nam deserunt blanditiis ratione sit iste in, quisquam corporis quod voluptates voluptas natus. Optio doloremque, at nisi voluptas sapiente quidem expedita mollitia itaque tempora vero deleniti error, quod ipsam officiis dicta facere culpa reprehenderit provident animi. Architecto?', 'Dolor sit amet consectetur adipisicing elit. Id voluptatum suscipit voluptatibus ex illo porro similique, dicta dignissimos facilis? Illo.']
+        description: [ "Je propose des services d'accompagnement informatique et d'analyse de structure pour évaluer la présence du client sur Internet et lui fournir des conseils. "]
     },
     {
-        title: "Backend Development",
-        category: "backend",
-        description: ['Backend ratione sit iste in, quisquam corporis quod voluptates voluptas natus. Optio doloremque, at nisi voluptas sapiente quidem expedita mollitia itaque tempora vero deleniti error, quod ipsam officiis dicta facere culpa reprehenderit provident animi. Architecto?', 'Dolor sit amet consectetur adipisicing elit. Id voluptatum suscipit voluptatibus', 'Autem tempora vitae magni sint hic non consectetur voluptatum accusamus, est dicta commodi, possimus laborum nam deserunt blanditiis ratione sit iste in, quisquam corporis quod voluptates voluptas natus. Optio doloremque, at nisi voluptas sapiente quidem expedita mollitia itaque tempora vero deleniti error, quod ipsam officiis dicta facere culpa reprehenderit provident animi. Architecto? Dolor sit amet consectetur adipisicing elit. Id voluptatum suscipit voluptatibus ex illo porro similique, dicta', 'Dolor sit amet consectetur adipisicing elit. Beatae quaerat officia maxime ullam. Distinctio voluptate officia voluptas unde debitis quia corporis doloribus labore vero? Soluta dolorum sapiente dolores libero']
-    },
-    {
-        title: "Fullstack Development",
+        title: "Développement Fullstack",
         category: "fullstack",
-        description: ['Fullstack consectetur adipisicing elit. Beatae quaerat officia maxime ullam. Distinctio voluptate officia voluptas unde debitis quia corporis doloribus labore vero?', 'Quisquam corporis quod voluptates voluptas natus. Optio doloremque, at nisi voluptas sapiente quidem expedita mollitia itaque tempora vero deleniti error, quod ipsam officiis dicta facere culpa reprehenderit provident animi. Architecto? Dolor sit', 'Sit amet consectetur adipisicing elit. Beatae quaerat officia maxime ullam. Distinctio voluptate officia voluptas unde debitis quia corporis doloribus labore vero? Soluta dolorum sapiente dolores libero']
+        description: ["Je propose de développer des applications en Full-stack avec les outils informatiques dont je dispose afin d'aider professionnellement le client dans sa présence sur Internet et lui permettre de se développer."]
     },
 ]
