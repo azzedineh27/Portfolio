@@ -85,12 +85,6 @@ p, a, figcaption {
     margin-inline: auto;
 }
 
-img {
-    display: block;
-    width: 100%;
-    object-fit: cover;
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Outfit', sans-serif;
     line-height: 1;
@@ -871,18 +865,24 @@ footer {
     }
 }
 
-.podcasts__container {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    flex-wrap: wrap;
+.podcast__image {
+    width: 50px;  /* Taille fixe pour éviter l’agrandissement */
+    height: auto;
+    display: block;
+    margin: 10px auto;  /* Centrer l’image */
+    cursor: pointer;
 }
 
-.podcast__video {
-    max-width: 50%;
+.podcast__box img {
+    max-width: 50px;  /* Limiter la largeur */
+    height: auto;
+    display: block;
+    margin: auto;
 }
 
-.podcast__video video {
-    width: 100%;
-    border-radius: var(--radius-2);
+/* Empêcher les images de podcasts d’être affectées par la règle générale */
+.podcasts__grid img {
+    width: auto !important;  
+    max-width: 50px;  
+    height: auto;
 }
