@@ -85,6 +85,12 @@ p, a, figcaption {
     margin-inline: auto;
 }
 
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Outfit', sans-serif;
     line-height: 1;
@@ -863,4 +869,20 @@ footer {
         gap: 1.6rem;
         align-items: center;
     }
+}
+
+.podcasts__container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.podcast__video {
+    max-width: 50%;
+}
+
+.podcast__video video {
+    width: 100%;
+    border-radius: var(--radius-2);
 }
